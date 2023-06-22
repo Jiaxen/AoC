@@ -1,6 +1,6 @@
 
 def get_data():
-    with open('2021/inputs/day_1') as f:
+    with open('y2021/inputs/day_1') as f:
         measurements = f.readlines()
     return tuple(int(i) for i in measurements)
 
