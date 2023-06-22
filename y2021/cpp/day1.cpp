@@ -11,12 +11,12 @@ int main()
     int result;
     inputFile >> prev;
 
-    while(!inputFile.eof()){
-        inputFile >> curr;
+    while(inputFile >> curr){
         if (curr > prev){
             result++;
         }
         prev = curr;
     }
-    cout << result <<endl;
+    cout << result << endl;
+    return 0;
 }
