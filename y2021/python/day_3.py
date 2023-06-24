@@ -20,6 +20,8 @@ nums_inv_decimal = 0
 for i, digit in enumerate(nums_inv[::-1]):
     nums_inv_decimal += (2**i) * digit
 
+print(nums)
+print(nums_inv)
 print(nums_decimal)
 print(nums_inv_decimal)
 print(nums_decimal*nums_inv_decimal)
